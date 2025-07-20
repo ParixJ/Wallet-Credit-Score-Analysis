@@ -22,15 +22,15 @@ We use a **rule-based scoring algorithm** that assigns weights to engineered fea
 ## Architecture
 
 user_transactions.json
-↓
+->
 Transaction Parsing & Feature Extraction
-↓
-Feature Normalization (MinMaxScaler)
-↓
+->
+Feature Normalization (StandardScaler)
+->
 Weighted Rule-Based Scoring Logic
-↓
+->
 Score Scaling to [0, 1000]
-↓
+->
 Output: credit_scores.json (wallet → score)
 
 
