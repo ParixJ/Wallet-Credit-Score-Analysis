@@ -9,6 +9,8 @@ This document analyzes the wallet credit scores generated from the rule-based mo
 
 ![Score Distribution](figure2.png)
 
+![Histograms](figure1.png)
+
 > (Generated using matplotlib in `analysis.ipynb`)
 
 ---
